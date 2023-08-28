@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiChevronDown } from 'react-icons/bi'
 import { NavLink } from 'react-router-dom'
 import './Footer.css';
 
