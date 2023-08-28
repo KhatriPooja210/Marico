@@ -123,7 +123,7 @@
     }
 
     .container button {
-        width: 40%;
+        /* width: 40%; */
         font-size: 1.8rem; 
         padding: 1.5rem 2rem; 
         margin-bottom: 2rem;
@@ -172,9 +172,9 @@
         width: 100%; 
     }
 
-    .container button {
+    /* .container button {
         width: 50%; 
-    }
+    } */
 
     .otherLogin {
         flex-direction: column; 

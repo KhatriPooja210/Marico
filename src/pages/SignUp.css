@@ -126,6 +126,7 @@
     }
 
     .input button {
+        width: 50% !important;
         font-size: 1.6rem; 
         padding: 1rem 2rem; 
     }
