@@ -39,7 +39,7 @@ const Home = () => {
         </div>
         <div className="connect">
           <span>STEP 1</span>
-          <h1>Connect Your Content</h1>
+          <h2>Connect Your Content</h2>
           <p>Bring all of your content together and get a Homepage that automatically updates whenever you create anywhere online.</p>
             <button>View Available Source</button>    
         </div>

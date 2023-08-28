@@ -1,7 +1,9 @@
 .home{
-    width: 80%;
+    width: 90vw;
     margin: 5rem auto;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .home h1{
     color: white;
@@ -28,14 +30,15 @@
 .btn{
     display: flex;
     justify-content: space-evenly;
+    margin: 2rem 0;
 }
 .btn button{
-    padding: 2rem 3rem;
+    padding: 1.5rem 5rem;
     border-radius: 1rem;
     background-color: transparent;
     color: rgb(124, 117, 117);
     border: .1rem solid rgb(124, 117, 117);
-    margin-right: 2rem;
+    margin-right: 1rem;
     cursor: pointer;
 }
 .btn button:nth-child(1){
@@ -75,16 +78,17 @@
     font-size: 1.6rem;
 }
 .connect{
-    width: 50%;
+    width: 60%;
     margin:5rem auto;
 }
 .connect span{
     color: #2b2beb;
     font-size: 1.8rem;
 }
-.connect h1{
+.connect h2{
     font-size: 5rem;
     color: white !important;
+    margin: 1.5rem 0;
 }
 .connect p{
     color: rgb(124, 117, 117);
@@ -93,6 +97,7 @@
 .connect button{
     padding: 2rem 5rem;
     border-radius: 1rem;
+    margin-top: 2rem;
     background-color: transparent;
     color: rgb(124, 117, 117);
     border: .1rem solid rgb(124, 117, 117);
@@ -172,7 +177,7 @@
     text-align: center;
 }
 .step2{
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
 }
 .step2  span{
@@ -224,7 +229,7 @@
     margin: 10rem auto;
 }
 .step3{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -248,6 +253,7 @@
 }
 .experts h1{
     font-size: 5rem;
+    margin-bottom: 3rem;
 }
 .experts img{
     width: 100%;
@@ -276,11 +282,17 @@
         font-size: 2.5rem; 
         line-height: 3rem; 
     }
-
+    .btn{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+    }
     .btn button {
-        padding: 1rem .5rem; 
+        padding: 1rem 2rem; 
         font-size: 1.8rem; 
-        margin: 0 1rem;
+        margin: .5rem 1rem;
     }
 
     .whyMarico h1 {
@@ -292,7 +304,9 @@
         align-items: center; 
         margin-top: 3rem; 
     }
-
+    .feat{
+        margin: 1rem 0;
+    }
     .feat h1 {
         font-size: 2rem; 
     }
@@ -306,8 +320,9 @@
         margin: 5rem auto; 
     }
 
-    .connect h1 {
-        font-size: 4rem; 
+    .connect h2 {
+        font-size: 4rem;
+        margin: 1.5rem 0; 
     }
 
     .connect p {
@@ -317,6 +332,7 @@
     .connect button {
         padding: 1.5rem 3rem; 
         font-size: 1.8rem; 
+        margin-top: 2rem;
     }
 
     .yourContent {
@@ -329,37 +345,48 @@
         font-size: 2rem; 
         margin-bottom: 3rem; 
     }
-
+    .homePage{
+        width: 80%;
+        text-align: center;
+    }
     .homePage h1 {
         font-size: 3rem; 
     }
 
     .points {
+        width: 80%;
         margin-top: 1.5rem; 
+        text-align: left;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .point {
-        width: 4%; 
-        height: 4%;
+        width: 2%; 
+        height: 10%;
         font-size: 0.8rem; 
     }
 
     .btns {
+        width: 70%;
         flex-direction: column; 
         margin-top: 3rem; 
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .btns button {
         margin-right: 0; 
-        margin-bottom: 2rem; 
-        padding: 1.5rem 3rem; 
+        margin-bottom: 1rem; 
+        padding: 1rem 3rem; 
         font-size: 1.8rem; 
     }
 
     .image {
-        width: 100%; 
+        width: 80%; 
         padding: 0;
         margin-top: 4rem; 
+        display: none;
     }
 
     .image img {
@@ -385,15 +412,20 @@
     }
 
     .sharePlatform {
+        width: 100%;
         flex-direction: column; 
+        margin-right: auto;
+        margin-left: auto;
         margin: 8rem 0; 
     }
 
     .platform {
-        width: 100%; 
+        width: 80%; 
+        margin-right: auto;
+        margin-left: auto;
         padding: 2rem;
         padding-bottom: 5rem; 
-        margin-bottom: 5rem; 
+        margin-bottom: 3rem; 
     }
 
     .platform h3 {
@@ -433,7 +465,7 @@
 
     .experts img {
         width: 100%; 
-        margin-top: 3rem; 
+        /* margin-top: 3rem;  */
     }
 }
 
@@ -458,11 +490,15 @@
 
     .btn {
         flex-direction: column; 
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .btn button {
         width: 100%; 
-        margin-top: 1rem; 
+        margin-top: 1rem;
+        font-size: 1.8rem; 
     }
 
     .whyMarico h1 {
@@ -472,7 +508,9 @@
     .features {
         flex-direction: column; 
     }
-
+    .feat{
+        margin: 1rem 0;
+    }
     .feat h1 {
         font-size: 2rem; 
     }
@@ -482,8 +520,9 @@
         margin: 5rem auto; 
     }
 
-    .connect h1 {
-        font-size: 3rem; 
+    .connect h2 {
+        font-size: 4rem;
+        margin: 1.5rem 0; 
     }
 
     .connect p {
@@ -493,13 +532,17 @@
     .connect button {
         padding: 1.5rem 3rem; 
         font-size: 1.8rem; 
+        margin-top: 1.5rem;
     }
 
     .yourContent {
         flex-direction: column; 
         align-items: center; 
     }
-
+    .homePage{
+        width: 80%;
+        text-align: center;
+    }
     .homePage h3 {
         font-size: 2rem; 
         margin-bottom: 3rem; 
@@ -510,22 +553,32 @@
     }
 
     .points {
+        width: 80%;
         margin-top: 1.5rem; 
+        text-align: left;
+        margin-right: auto;
+        margin-left: auto; 
     }
 
     .point {
-        width: 4%;
-        height: 4%; 
-        padding: 0.2rem; 
+        width: 2%; 
+        height: 10%;
         font-size: 0.8rem; 
     }
 
     .btns {
+        width: 70%;
         flex-direction: column; 
+        margin-top: 3rem; 
+        margin-right: auto;
+        margin-left: auto; 
     }
 
     .btns button {
-        margin-top: 1rem; 
+        margin-right: 0; 
+        margin-bottom: 1rem; 
+        padding: 1.5rem 3rem; 
+        font-size: 1.8rem; 
     }
 
     .image {
@@ -551,12 +604,16 @@
     }
 
     .sharePlatform {
-        flex-direction: column; 
+        /* flex-direction: column;  */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        /* margin: 4rem 0; */
     }
 
     .platform {
-        width: 100%; 
-        margin: 3rem 0; 
+        width: 44%; 
+        /* margin: 3rem 0;  */
         padding: 2rem; 
         padding-bottom: 5rem; 
     }
@@ -577,7 +634,9 @@
     .send {
         margin: 5rem auto; 
     }
-
+    .step{
+        margin-bottom: 2rem;
+    }
     .step3 {
         width: 70%; 
         margin: 0 auto; 
@@ -593,6 +652,6 @@
     }
 
     .experts h1 {
-        font-size: 3rem; 
+        font-size: 4.5rem; 
     }
 }

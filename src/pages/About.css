@@ -1,7 +1,20 @@
-.container{
-    width: 80%;
+.about{
+    width: 90vw;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 7rem;
+    text-align: center;
+    color: white;
+}
+.about h1{
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.about p{
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    font-weight: 200;
 }
 .ourMission{
     width: 50%;
@@ -14,7 +27,7 @@
     color: #2b2beb;
 }
 .ourMission h1{
-    margin-top: 0;
+    margin-top: 1rem;
     font-size: 4rem;
 }
 .info{
@@ -29,6 +42,7 @@
 .info h3{
     text-align: left;
     font-size: 2rem;
+    margin-top: 2rem;
 }
 .ourTeam{
     width: 60%;
@@ -69,7 +83,7 @@
 
 /* mobile responsive */
 @media (max-width: 767px) {
-    .container {
+    .about {
         width: 90%; 
     }
 
@@ -122,7 +136,7 @@
         width: 50%; 
         height: auto; 
         max-width: 200px; 
-        border-radius: 10px; 
+        border-radius: 50%; 
         margin-bottom: 1.5rem; 
     }
 
@@ -134,6 +148,7 @@
     .creator p {
         font-size: 1rem !important; 
         margin-top: 0.5rem; 
+        font-weight: 300;
     }
 
     .creator p img {
@@ -145,7 +160,7 @@
 
 /* tablet responsive */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .container {
+    .about {
         width: 90%; 
     }
 
@@ -191,8 +206,9 @@
     }
 
     .creatorMan {
-        width: 40%; 
-        height: auto; 
+        width: 25%; 
+        height: 30%;
+        border-radius: 50%;
     }
 
     .creator h2 {

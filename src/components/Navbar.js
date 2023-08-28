@@ -6,7 +6,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <header>
-      <nav>
+      <nav className="nav">
         <div>
           <NavLink to="/">
             <img src="assets/images/logo.png" alt="logo" />
@@ -31,11 +31,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div>
-          <button>
-          <NavLink to="/login">Login</NavLink>
+          <button className="navBtn">
+            <NavLink to="/login">Login</NavLink>
           </button>
-          <button>
-          <NavLink to="/signUp">Sign Up</NavLink>
+          <button className="navBtn">
+            <NavLink to="/signUp">Sign Up</NavLink>
           </button>
         </div>
       </nav>

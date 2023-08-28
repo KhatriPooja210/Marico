@@ -1,5 +1,5 @@
 .contentSources{
-    width: 80%;
+    width: 90vw;
     margin: 10rem auto;
 }
 .contentSources h1{
@@ -27,16 +27,16 @@
 /* mobile responsive */
 @media (max-width: 767px) {
     .contentSources {
-        width: 90%; 
+        width: 90vw; 
         margin: 5rem auto; 
     }
 
     .contentSources h1 {
-        font-size: 5rem; 
+        font-size: 4rem; 
     }
 
     .contentSources p {
-        font-size: 2rem; 
+        font-size: 1.8rem; 
     }
 
     .blogs {
@@ -54,7 +54,7 @@
     }
 
     .contentSources h1 {
-        font-size: 6rem; 
+        font-size: 5rem; 
     }
 
     .contentSources p {

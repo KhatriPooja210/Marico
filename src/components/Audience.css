@@ -1,5 +1,5 @@
 .contain{
-    width: 100%;
+    width: 100vw;
     margin: 10rem auto;
 }
 .audiences{
@@ -14,7 +14,7 @@
     width: 60%;
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-right: auto;
     margin-left: auto;
 }
@@ -26,13 +26,13 @@
     }
 
     .audiences {
-        background-size: cover; 
-        padding: 2rem 0; 
+        /* background-size: cover;  */
+        padding: 12rem 0; 
     }
 
     .content {
         width: 80%; 
-        font-size: 1rem; 
+        font-size: 1.4rem; 
     }
 }
 
