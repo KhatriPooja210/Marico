@@ -1,0 +1,189 @@
+.container{
+    width: 70%;
+    margin-top: 7rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+}
+.container h1{
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.container p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+.inputs{
+    margin: 5rem 0;
+    display: flex;
+    padding: 0 10rem;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.input{
+    border-bottom: 0.1rem solid rgb(124, 117, 117);
+    display: flex;
+    /* align-items: center; */
+}
+.input input{
+    width: 30rem;
+    font-size: 1.5rem;
+    color: white;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    background-color: black;
+    &::placeholder{
+        color: white;
+        font-size: 1.5rem;
+    }
+    &:focus{
+        background-color: black;
+    }
+}
+.icon{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
+}
+.container button{
+    width: 30rem;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    background-color: #2b2beb;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.otherLogin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login{
+    width: 22%;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    
+    align-items: center;
+    border: .1rem solid white;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.login img{
+    width: 3rem;
+    margin-right: 2rem;
+}
+.goto{
+    margin: 5rem 0;
+    font-size: 1.4rem;
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+        margin-top: 4rem; 
+    }
+
+    .container h1 {
+        font-size: 3.5rem; 
+    }
+
+    .container p {
+        font-size: 1.6rem; 
+    }
+
+    .inputs {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 0 2rem; 
+        margin: 3rem 0; 
+    }
+
+    input {
+        width: 100%;
+        padding: 1.5rem 2rem; 
+        font-size: 1.4rem; 
+    }
+    .input{
+        margin-bottom: 1rem;
+    }
+
+    .icon {
+        margin-left: 0; 
+    }
+
+    .container button {
+        width: 40%;
+        font-size: 1.8rem; 
+        padding: 1.5rem 2rem; 
+        margin-bottom: 2rem;
+    }
+
+    .otherLogin {
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 2rem; 
+    }
+
+    .login {
+        width: 60%; 
+        margin-bottom: 1rem;
+    }
+
+    .login img {
+        margin-right: 1rem; 
+    }
+
+    .goto {
+        margin: 3rem 0; 
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        margin-top: 5rem; 
+    }
+
+    .container h1 {
+        font-size: 4rem; 
+    }
+
+    .container p {
+        font-size: 1.8rem; 
+    }
+
+    .inputs {
+        margin: 3rem 0; 
+        padding: 0 3rem; 
+    }
+
+    .input input {
+        width: 100%; 
+    }
+
+    .container button {
+        width: 50%; 
+    }
+
+    .otherLogin {
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 2rem; 
+    }
+
+    .login {
+        width: 60%; 
+        margin-bottom: 1rem; 
+    }
+}

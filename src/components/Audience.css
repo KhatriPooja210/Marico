@@ -1,0 +1,53 @@
+.contain{
+    width: 100%;
+    margin: 10rem auto;
+}
+.audiences{
+    width: 100%;
+    background-image: url('../audience.png');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20rem 0;
+}
+.content{
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* mobile responsive */
+@media (max-width: 767px) {
+    .contain {
+        margin: 5rem auto; 
+    }
+
+    .audiences {
+        background-size: cover; 
+        padding: 2rem 0; 
+    }
+
+    .content {
+        width: 80%; 
+        font-size: 1rem; 
+    }
+}
+
+/* tablet responsive */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contain {
+        margin: 5rem auto; 
+    }
+
+    .audiences {
+        padding: 15rem 0; 
+    }
+
+    .content {
+        width: 80%; 
+        font-size: 2rem; 
+    }
+}

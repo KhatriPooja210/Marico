@@ -1,0 +1,216 @@
+.pricing{
+    width: 90%;
+    margin: 10rem auto;
+}
+.pricing h1{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 0;
+}
+.price{
+    width: 28%;
+    background-color: #161515;
+    border: .1rem solid rgb(124, 117, 117);
+    border-radius: 2rem;
+    padding: 2rem;
+    color: white;
+}
+.price h2{
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: .3rem;
+}
+.price p{
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 1rem 0;
+}
+.pp{
+    height: 12rem;
+}
+.pp h1{
+    text-align: left;
+    font-size: 5rem;
+    /* margin-bottom: 5rem; */
+}
+.pp h1 sub{
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+.pp span{
+    font-size: 2rem;
+    font-weight: 200;
+    border-bottom: .05rem solid white;
+    cursor: pointer;
+}
+.price h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.price h4{
+    font-size: 1.6rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 3rem 0;
+}
+.price button{
+    margin-top: 3rem;
+    width: 100%;
+    padding: 3rem;
+    font-size: 1.8rem;
+    background-color: transparent;
+    border: .1rem solid #2b2beb;
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.price:nth-child(3){
+    background-color: #2b2beb;
+}
+.lastBtn{
+    background-color: white !important;
+    color: #2b2beb !important;
+}
+
+
+/* mobile responsive */
+@media (max-width: 767px) {
+    .pricing {
+        margin: 5rem auto; 
+    }
+
+    .pricing h1 {
+        font-size: 4rem; 
+    }
+
+    .prices {
+        flex-direction: column; 
+        align-items: center; 
+        margin: 5rem 0; 
+    }
+
+    .price {
+        width: 80%; 
+        margin: 2rem auto; 
+        padding: 1.5rem; 
+    }
+
+    .price h2 {
+        font-size: 2.5rem; 
+        letter-spacing: 0.2rem; 
+    }
+
+    .price p {
+        font-size: 1.6rem; 
+        margin: 0.5rem 0; 
+    }
+
+    .pp h1 {
+        font-size: 3.5rem; 
+    }
+
+    .pp h1 sub {
+        font-size: 1.2rem; 
+    }
+
+    .pp span {
+        font-size: 1.8rem; 
+        border-bottom: 0.05rem solid white;
+    }
+
+    .price h3 {
+        font-size: 1.8rem; 
+        margin-bottom: 1.5rem; 
+    }
+
+    .price h4 {
+        font-size: 1.4rem; 
+        margin: 2rem 0; 
+    }
+
+    .price button {
+        margin-top: 2rem; 
+        padding: 2rem; 
+        font-size: 1.6rem; 
+        border-radius: 1.5rem; 
+    }
+
+    .price:nth-child(3) {
+        background-color: #2b2beb;
+    }
+
+    .lastBtn {
+        background-color: white !important;
+        color: #2b2beb !important;
+    }
+}
+
+
+/* tablet responsive */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .pricing {
+        margin: 5rem auto; 
+    }
+
+    .pricing h1 {
+        font-size: 4rem; 
+    }
+
+    .prices {
+        flex-direction: column; 
+        align-items: center; 
+        margin: 5rem 0; 
+    }
+
+    .price {
+        width: 80%; 
+        padding: 1.5rem; 
+        margin: 2rem 0;
+    }
+
+    .price h2 {
+        font-size: 2.5rem; 
+    }
+
+    .price p {
+        font-size: 1.8rem; 
+    }
+
+    .pp h1 {
+        font-size: 4rem; 
+    }
+
+    .pp h1 sub {
+        font-size: 1.4rem; 
+    }
+
+    .pp span {
+        font-size: 1.8rem; 
+    }
+
+    .price h3 {
+        font-size: 1.8rem; 
+        margin-bottom: 1.5rem; 
+    }
+
+    .price h4 {
+        font-size: 1.4rem; 
+        margin: 2rem 0; 
+    }
+
+    .price button {
+        padding: 2rem; 
+        font-size: 1.6rem; 
+    }
+
+    /* .lastBtn {
+        background-color: #2b2beb !important;
+        color: white !important;
+    } */
+}

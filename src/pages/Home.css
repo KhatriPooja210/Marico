@@ -1,0 +1,598 @@
+.home{
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+.home h1{
+    color: white;
+    font-size: 8rem;
+    margin: 1rem 0;
+}
+.home h1:nth-child(2){
+    background: #EB7589;
+    background: linear-gradient(to right, #EB7589 0%, #FFC27D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.audience{
+    width: 40%;
+    margin: 7rem auto;
+    padding: 3rem 5rem;
+}
+.audience h3{
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 4rem;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn button{
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: rgb(124, 117, 117);
+    border: .1rem solid rgb(124, 117, 117);
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.btn button:nth-child(1){
+    background-color: #2b2beb;
+    color: white;
+    border: none;
+}
+/* .btn button:nth-child(2){
+    
+} */
+.audience p{
+    font-weight: 200 !important;
+    font-size: 2rem;
+    color: white;
+}
+.audience p img{
+    width: 2rem;
+    margin-right: 1rem;
+}
+.whyMarico{
+    width: 80%;
+    margin:7rem auto;
+}
+.whyMarico h1{
+    font-size: 5rem;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.feat h1{
+    font-size: 2.5rem;
+}
+.feat p{
+    color: rgb(124, 117, 117);
+    font-size: 1.6rem;
+}
+.connect{
+    width: 50%;
+    margin:5rem auto;
+}
+.connect span{
+    color: #2b2beb;
+    font-size: 1.8rem;
+}
+.connect h1{
+    font-size: 5rem;
+    color: white !important;
+}
+.connect p{
+    color: rgb(124, 117, 117);
+    font-size: 2rem;
+}
+.connect button{
+    padding: 2rem 5rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: rgb(124, 117, 117);
+    border: .1rem solid rgb(124, 117, 117);
+    cursor: pointer;
+}
+.yourContent{
+    width: 90%;
+    margin-top: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.homePage{
+    width: 50%;
+}
+.homePage h3{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 7rem;
+}
+.homePage h1{
+    color: white;
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+.homePage h1 span{
+    color: #2b2beb;
+}
+.points{
+    display: flex;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+.point{
+    width: 2%;
+    text-align: center;
+    padding: .5rem;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(124, 117, 117);
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+.btns{
+    display: flex;
+    margin-top: 5rem;
+}
+.btns button{
+    margin-right: 2rem;
+    padding: 2rem 5rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: rgb(124, 117, 117);
+    border: .1rem solid rgb(124, 117, 117);
+    cursor: pointer;
+}
+.btns button:nth-child(1){
+    background-color: #2b2beb;
+    color: white;
+    border: none;
+}
+.image{
+    width: 50%;
+    padding: 0;
+}
+.image img{
+    width: 100%;
+    object-fit: contain;
+    box-shadow: 5px 10px 18px #888888;
+}
+.share{
+    width: 90%;
+    margin: 10rem auto;
+    text-align: center;
+}
+.step2{
+    width: 40%;
+    margin: 0 auto;
+}
+.step2  span{
+    color: #2b2beb;
+    font-size: 1.8rem;
+}
+.step2 h1{
+    font-size: 5rem;
+    color: white;
+    margin: 2rem;
+}
+.step2 p{
+    color: rgb(124, 117, 117);
+    font-size: 2rem;
+}
+
+.sharePlatform{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 0;
+}
+.platform{
+    width: 46%;
+    background-color: #161515;
+    padding: 2rem;
+    text-align: left;
+    padding-bottom: 10rem;
+}
+.platform h3{
+    color: rgb(9, 131, 9);
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 5rem;
+}
+.platform h1{
+    color: rgb(124, 117, 117);
+    font-size: 5rem;
+    margin: 0;
+}
+.platform span{
+    color: white;
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 0;
+}
+.send{
+    width: 100%;
+    margin: 10rem auto;
+}
+.step3{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.step3  span{
+    color: #2b2beb;
+    font-size: 1.8rem;
+}
+.step3 h1{
+    font-size: 5rem;
+    color: white;
+    margin: 2rem;
+}
+.step3 p{
+    color: rgb(124, 117, 117);
+    font-size: 2rem;
+}
+.experts{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.experts h1{
+    font-size: 5rem;
+}
+.experts img{
+    width: 100%;
+}
+
+
+
+/* mobile responsive */
+@media (max-width: 767px) {
+    .home h1 {
+        font-size: 4rem; 
+        margin: 1rem 0;
+    }
+
+    .home h1:nth-child(2) {
+        font-size: 4rem; 
+    }
+
+    .audience {
+        width: 80%; 
+        margin: 5rem auto; 
+        padding: 2rem; 
+    }
+
+    .audience h3 {
+        font-size: 2.5rem; 
+        line-height: 3rem; 
+    }
+
+    .btn button {
+        padding: 1rem .5rem; 
+        font-size: 1.8rem; 
+        margin: 0 1rem;
+    }
+
+    .whyMarico h1 {
+        font-size: 3.5rem; 
+    }
+
+    .features {
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 3rem; 
+    }
+
+    .feat h1 {
+        font-size: 2rem; 
+    }
+
+    .feat p {
+        font-size: 1.4rem; 
+    }
+
+    .connect {
+        width: 80%; 
+        margin: 5rem auto; 
+    }
+
+    .connect h1 {
+        font-size: 4rem; 
+    }
+
+    .connect p {
+        font-size: 1.8rem; 
+    }
+
+    .connect button {
+        padding: 1.5rem 3rem; 
+        font-size: 1.8rem; 
+    }
+
+    .yourContent {
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 8rem; 
+    }
+
+    .homePage h3 {
+        font-size: 2rem; 
+        margin-bottom: 3rem; 
+    }
+
+    .homePage h1 {
+        font-size: 3rem; 
+    }
+
+    .points {
+        margin-top: 1.5rem; 
+    }
+
+    .point {
+        width: 4%; 
+        height: 4%;
+        font-size: 0.8rem; 
+    }
+
+    .btns {
+        flex-direction: column; 
+        margin-top: 3rem; 
+    }
+
+    .btns button {
+        margin-right: 0; 
+        margin-bottom: 2rem; 
+        padding: 1.5rem 3rem; 
+        font-size: 1.8rem; 
+    }
+
+    .image {
+        width: 100%; 
+        padding: 0;
+        margin-top: 4rem; 
+    }
+
+    .image img {
+        box-shadow: none; 
+    }
+
+    .share {
+        margin: 8rem auto; 
+    }
+
+    .step2 {
+        width: 80%; 
+        margin: 0 auto;
+    }
+
+    .step2 h1 {
+        font-size: 3rem; 
+        margin: 1.5rem; 
+    }
+
+    .step2 p {
+        font-size: 1.8rem; 
+    }
+
+    .sharePlatform {
+        flex-direction: column; 
+        margin: 8rem 0; 
+    }
+
+    .platform {
+        width: 100%; 
+        padding: 2rem;
+        padding-bottom: 5rem; 
+        margin-bottom: 5rem; 
+    }
+
+    .platform h3 {
+        font-size: 2rem; 
+        margin-bottom: 3rem; 
+    }
+
+    .platform h1 {
+        font-size: 4rem; 
+    }
+
+    .platform span {
+        font-size: 4rem; 
+    }
+
+    .send {
+        margin: 8rem auto; 
+    }
+
+    .step3 {
+        width: 90%; 
+        margin: 0 auto;
+    }
+
+    .step3 h1 {
+        font-size: 3rem; 
+        margin: 2rem;
+    }
+
+    .step3 p {
+        font-size: 1.8rem; 
+    }
+
+    .experts h1 {
+        font-size: 3rem; 
+    }
+
+    .experts img {
+        width: 100%; 
+        margin-top: 3rem; 
+    }
+}
+
+
+
+/* tablet responsive */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home h1 {
+        font-size: 5rem; 
+    }
+
+    .audience {
+        width: 60%; 
+        margin: 5rem auto; 
+        padding: 2rem; 
+    }
+
+    .audience h3 {
+        font-size: 2.5rem; 
+        line-height: 3rem; 
+    }
+
+    .btn {
+        flex-direction: column; 
+    }
+
+    .btn button {
+        width: 100%; 
+        margin-top: 1rem; 
+    }
+
+    .whyMarico h1 {
+        font-size: 4rem; 
+    }
+
+    .features {
+        flex-direction: column; 
+    }
+
+    .feat h1 {
+        font-size: 2rem; 
+    }
+
+    .connect {
+        width: 70%; 
+        margin: 5rem auto; 
+    }
+
+    .connect h1 {
+        font-size: 3rem; 
+    }
+
+    .connect p {
+        font-size: 2rem; 
+    }
+
+    .connect button {
+        padding: 1.5rem 3rem; 
+        font-size: 1.8rem; 
+    }
+
+    .yourContent {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .homePage h3 {
+        font-size: 2rem; 
+        margin-bottom: 3rem; 
+    }
+
+    .homePage h1 {
+        font-size: 3rem; 
+    }
+
+    .points {
+        margin-top: 1.5rem; 
+    }
+
+    .point {
+        width: 4%;
+        height: 4%; 
+        padding: 0.2rem; 
+        font-size: 0.8rem; 
+    }
+
+    .btns {
+        flex-direction: column; 
+    }
+
+    .btns button {
+        margin-top: 1rem; 
+    }
+
+    .image {
+        display: none; 
+    }
+
+    .share {
+        margin: 5rem auto; 
+    }
+
+    .step2 {
+        width: 70%; 
+        margin: 0 auto; 
+    }
+
+    .step2 h1 {
+        font-size: 3rem; 
+        margin: 1rem 0; 
+    }
+
+    .step2 p {
+        font-size: 1.8rem; 
+    }
+
+    .sharePlatform {
+        flex-direction: column; 
+    }
+
+    .platform {
+        width: 100%; 
+        margin: 3rem 0; 
+        padding: 2rem; 
+        padding-bottom: 5rem; 
+    }
+
+    .platform h3 {
+        font-size: 2rem; 
+        margin-bottom: 3rem; 
+    }
+
+    .platform h1 {
+        font-size: 3rem; 
+    }
+
+    .platform span {
+        font-size: 3rem; 
+    }
+
+    .send {
+        margin: 5rem auto; 
+    }
+
+    .step3 {
+        width: 70%; 
+        margin: 0 auto; 
+    }
+
+    .step3 h1 {
+        font-size: 3rem; 
+        margin: 1rem 0; 
+    }
+
+    .step3 p {
+        font-size: 1.8rem; 
+    }
+
+    .experts h1 {
+        font-size: 3rem; 
+    }
+}

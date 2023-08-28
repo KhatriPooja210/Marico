@@ -1,0 +1,209 @@
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ourMission{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+}
+.ourMission h3{
+    font-size: 1.6rem;
+    color: #2b2beb;
+}
+.ourMission h1{
+    margin-top: 0;
+    font-size: 4rem;
+}
+.info{
+    width: 70%;
+    padding: 2rem;
+    margin: 8rem auto;
+    border-bottom: .1rem solid rgb(124, 117, 117);
+}
+.info p{
+    text-align: left;
+}
+.info h3{
+    text-align: left;
+    font-size: 2rem;
+}
+.ourTeam{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+}
+.ourTeam h3{
+    font-size: 1.6rem;
+    color: #2b2beb;
+}
+.ourTeam h1{
+    margin-top: 0;
+    font-size: 4rem;
+}
+.creators{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.creatorMan{
+    width: 45%;
+    height: 50%;
+    border-radius: 100%;
+}
+.creator h2{
+    font-size: 2rem;
+}
+.creator p{
+    font-size: 1.2rem !important;
+    cursor: pointer;
+}
+.creator p img{
+    width: 1rem;
+}
+
+
+
+/* mobile responsive */
+@media (max-width: 767px) {
+    .container {
+        width: 90%; 
+    }
+
+    .ourMission {
+        width: 90%; 
+        margin-top: 3rem; 
+    }
+
+    .ourMission h3 {
+        font-size: 1.4rem; 
+    }
+
+    .ourMission h1 {
+        font-size: 3rem; 
+    }
+
+    .info {
+        width: 90%; 
+        padding: 1rem; 
+        margin: 5rem auto; 
+    }
+
+    .info p {
+        font-size: 1.2rem; 
+    }
+
+    .info h3 {
+        font-size: 1.8rem; 
+    }
+
+    .ourTeam {
+        width: 90%; 
+        margin-top: 3rem; 
+    }
+
+    .ourTeam h3 {
+        font-size: 1.4rem; 
+    }
+
+    .ourTeam h1 {
+        font-size: 3rem; 
+    }
+
+    .creators {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .creatorMan {
+        width: 50%; 
+        height: auto; 
+        max-width: 200px; 
+        border-radius: 10px; 
+        margin-bottom: 1.5rem; 
+    }
+
+    .creator h2 {
+        font-size: 1.8rem; 
+        margin-top: 1rem; 
+    }
+
+    .creator p {
+        font-size: 1rem !important; 
+        margin-top: 0.5rem; 
+    }
+
+    .creator p img {
+        width: 0.8rem; 
+        margin-left: 0.5rem; 
+    }
+}
+
+
+/* tablet responsive */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 90%; 
+    }
+
+    .ourMission {
+        width: 80%; 
+        margin-top: 3rem; 
+    }
+
+    .ourMission h3 {
+        font-size: 1.4rem; 
+    }
+
+    .ourMission h1 {
+        font-size: 3.5rem; 
+    }
+
+    .info {
+        width: 90%; 
+        margin: 5rem auto; 
+        padding: 1.5rem; 
+    }
+
+    .info h3 {
+        font-size: 1.8rem; 
+    }
+
+    .ourTeam {
+        width: 80%; 
+        margin-top: 3rem; 
+    }
+
+    .ourTeam h3 {
+        font-size: 1.4rem; 
+    }
+
+    .ourTeam h1 {
+        font-size: 3.5rem; 
+    }
+
+    .creators {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .creatorMan {
+        width: 40%; 
+        height: auto; 
+    }
+
+    .creator h2 {
+        font-size: 1.8rem; 
+    }
+
+    .creator p {
+        font-size: 1rem !important; 
+    }
+
+    .creator p img {
+        width: 0.8rem; 
+    }
+}

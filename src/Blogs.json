@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "img" : "assets/images/twitter.png",
+        "title" : "Twitter",
+        "content" : "Connect your Twitter feed to your Marico homepage."
+    },
+    {
+        "id": 2,
+        "img" : "assets/images/youtube.png",
+        "title" : "YouTube",
+        "content" : "Connect your YouTube feed to your Marico homepage."
+    },
+    {
+        "id": 3,
+        "img" : "assets/images/wordpress.png",
+        "title" : "WordPress",
+        "content" : "Connect your WordPress feed to your Marico homepage."
+    },
+    {
+        "id": 4,
+        "img" : "assets/images/substack.png",
+        "title" : "Substack",
+        "content" : "Connect your Substack feed to your Marico homepage."
+    },
+    {
+        "id": 5,
+        "img" : "assets/images/medium.png",
+        "title" : "Medium",
+        "content" : "Connect your Medium feed to your Marico homepage."
+    },
+    {
+        "id": 6,
+        "img" : "assets/images/wordpress.png",
+        "title" : "RSS Feeds",
+        "content" : "Connect your RSS Feeds feed to your Marico homepage."
+    },
+    {
+        "id": 7,
+        "img" : "assets/images/spotify.png",
+        "title" : "Spotify",
+        "content" : "Connect your Spotify feed to your Marico homepage."
+    },
+    {
+        "id": 8,
+        "img" : "assets/images/anchor.png",
+        "title" : "Anchor",
+        "content" : "Connect your Anchor feed to your Marico homepage."
+    },
+    {
+        "id": 9,
+        "img" : "assets/images/podcasts.png",
+        "title" : "Apple Podcasts",
+        "content" : "Connect your Apple Podcasts feed to your Marico homepage."
+    },
+    {
+        "id": 10,
+        "img" : "assets/images/instagram.png",
+        "title" : "Instagram",
+        "content" : "Connect your Instagram feed to your Marico homepage."
+    },
+    {
+        "id": 11,
+        "img" : "assets/images/linkedin.png",
+        "title" : "Linkedin",
+        "content" : "Connect your Linkedin feed to your Marico homepage."
+    },
+    {
+        "id": 12,
+        "img" : "assets/images/facebook.png",
+        "title" : "Fackbook",
+        "content" : "Connect your Fackbook feed to your Marico homepage."
+    }
+]
