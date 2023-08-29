@@ -79,12 +79,13 @@
     align-items: center;
 }
 .signUp{
-    width: 25% ;
+    width: 23% ;
+    text-align: center;
     display: flex;
     justify-items: center;
     align-items: center;
     border: .1rem solid white;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
     border-radius: 1rem;
     font-size: 1.4rem;
     cursor: pointer;
@@ -133,11 +134,12 @@
 
     .otherSignUp {
         flex-direction: column; 
+        align-items: center;
         margin-top: 2rem; 
     }
 
     .signUp {
-        width: 80%; 
+        width: 40%; 
         margin-bottom: 1rem; 
     }
 
@@ -186,7 +188,7 @@
     }
 
     .signUp {
-        width: 60%; 
+        width: 50%; 
         margin-bottom: 1rem; 
     }
 }

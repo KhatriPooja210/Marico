@@ -82,7 +82,7 @@
 /* mobile responsive */
 @media (max-width: 767px) {
     .pricing {
-        margin: 5rem auto; 
+        margin: 8rem auto; 
     }
 
     .pricing h1 {

@@ -67,7 +67,7 @@
 }
 .features{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 4rem;
 }
 .feat h1{
@@ -263,9 +263,11 @@
 
 /* mobile responsive */
 @media (max-width: 767px) {
+    .home{
+        margin-top: 8rem;
+    }
     .home h1 {
-        font-size: 4rem; 
-        margin: 1rem 0;
+        font-size: 4rem;
     }
 
     .home h1:nth-child(2) {
